@@ -1,0 +1,30 @@
+G:\Vinit\yProject\yProjectDataAccess\bin\Debug\yProjectDataAccess.dll.config
+G:\Vinit\yProject\yProjectDataAccess\bin\Debug\yProjectDataAccess.dll
+G:\Vinit\yProject\yProjectDataAccess\bin\Debug\yProjectDataAccess.pdb
+G:\Vinit\yProject\yProjectDataAccess\bin\Debug\EntityFramework.dll
+G:\Vinit\yProject\yProjectDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+G:\Vinit\yProject\yProjectDataAccess\bin\Debug\EntityFramework.xml
+G:\Vinit\yProject\yProjectDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+G:\Vinit\yProject\yProjectDataAccess\obj\Debug\yProjectDataAccess.csprojResolveAssemblyReference.cache
+G:\Vinit\yProject\yProjectDataAccess\obj\Debug\yProjectDataAccess.dll
+G:\Vinit\yProject\yProjectDataAccess\obj\Debug\yProjectDataAccess.pdb
+G:\Vinit\yProject - Copy\yProjectDataAccess\bin\Debug\yProjectDataAccess.dll.config
+G:\Vinit\yProject - Copy\yProjectDataAccess\bin\Debug\yProjectDataAccess.dll
+G:\Vinit\yProject - Copy\yProjectDataAccess\bin\Debug\yProjectDataAccess.pdb
+G:\Vinit\yProject - Copy\yProjectDataAccess\bin\Debug\EntityFramework.dll
+G:\Vinit\yProject - Copy\yProjectDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+G:\Vinit\yProject - Copy\yProjectDataAccess\bin\Debug\EntityFramework.xml
+G:\Vinit\yProject - Copy\yProjectDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+G:\Vinit\yProject - Copy\yProjectDataAccess\obj\Debug\yProjectDataAccess.csprojResolveAssemblyReference.cache
+G:\Vinit\yProject - Copy\yProjectDataAccess\obj\Debug\yProjectDataAccess.dll
+G:\Vinit\yProject - Copy\yProjectDataAccess\obj\Debug\yProjectDataAccess.pdb
+G:\Vinit\yProject - Copy - Copy\yProjectDataAccess\bin\Debug\yProjectDataAccess.dll.config
+G:\Vinit\yProject - Copy - Copy\yProjectDataAccess\bin\Debug\yProjectDataAccess.dll
+G:\Vinit\yProject - Copy - Copy\yProjectDataAccess\bin\Debug\yProjectDataAccess.pdb
+G:\Vinit\yProject - Copy - Copy\yProjectDataAccess\bin\Debug\EntityFramework.dll
+G:\Vinit\yProject - Copy - Copy\yProjectDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+G:\Vinit\yProject - Copy - Copy\yProjectDataAccess\bin\Debug\EntityFramework.xml
+G:\Vinit\yProject - Copy - Copy\yProjectDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+G:\Vinit\yProject - Copy - Copy\yProjectDataAccess\obj\Debug\yProjectDataAccess.csprojResolveAssemblyReference.cache
+G:\Vinit\yProject - Copy - Copy\yProjectDataAccess\obj\Debug\yProjectDataAccess.dll
+G:\Vinit\yProject - Copy - Copy\yProjectDataAccess\obj\Debug\yProjectDataAccess.pdb

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DiscussionDatabaseModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DiscussionDatabaseModelStoreContainer">
+    <EntitySet Name="Answers" EntityType="DiscussionDatabaseModel.Store.Answers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Questions" EntityType="DiscussionDatabaseModel.Store.Questions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="DiscussionDatabaseModel.Store.Users" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="QuestionAnswer" Association="DiscussionDatabaseModel.Store.QuestionAnswer">
+      <End Role="Question" EntitySet="Questions" />
+      <End Role="Answer" EntitySet="Answers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Answers">
+    <Key>
+      <PropertyRef Name="aid" />
+    </Key>
+    <Property Name="aid" Type="int" Nullable="false" />
+    <Property Name="abody" Type="varchar(max)" Nullable="true" />
+    <Property Name="adate" Type="datetime" Nullable="true" />
+    <Property Name="alikes" Type="int" Nullable="true" />
+    <Property Name="uid" Type="int" Nullable="false" />
+    <Property Name="qid" Type="int" Nullable="false" />
+    <Property Name="Question_qid" Type="int" Nullable="false" />
+    <Property Name="aapprove" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Questions">
+    <Key>
+      <PropertyRef Name="qid" />
+    </Key>
+    <Property Name="qid" Type="int" Nullable="false" />
+    <Property Name="qtitle" Type="varchar(max)" Nullable="true" />
+    <Property Name="qbody" Type="varchar(max)" Nullable="true" />
+    <Property Name="qtags" Type="varchar(max)" Nullable="true" />
+    <Property Name="qlikes" Type="int" Nullable="true" />
+    <Property Name="qcomments" Type="int" Nullable="true" />
+    <Property Name="uid" Type="int" Nullable="false" />
+    <Property Name="qdate" Type="datetime" Nullable="true" />
+    <Property Name="User_uid" Type="int" Nullable="false" />
+    <Property Name="qapprove" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="uid" />
+    </Key>
+    <Property Name="uid" Type="int" Nullable="false" />
+    <Property Name="uname" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <Association Name="QuestionAnswer">
+    <End Role="Question" Type="DiscussionDatabaseModel.Store.Questions" Multiplicity="1" />
+    <End Role="Answer" Type="DiscussionDatabaseModel.Store.Answers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="qid" />
+      </Principal>
+      <Dependent Role="Answer">
+        <PropertyRef Name="Question_qid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

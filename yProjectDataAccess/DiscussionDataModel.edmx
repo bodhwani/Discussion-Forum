@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DiscussionDatabaseModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DiscussionDatabaseModelStoreContainer">
+    <EntitySet Name="Answers" EntityType="DiscussionDatabaseModel.Store.Answers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Questions" EntityType="DiscussionDatabaseModel.Store.Questions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Users" EntityType="DiscussionDatabaseModel.Store.Users" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="QuestionAnswer" Association="DiscussionDatabaseModel.Store.QuestionAnswer">
+      <End Role="Question" EntitySet="Questions" />
+      <End Role="Answer" EntitySet="Answers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Answers">
+    <Key>
+      <PropertyRef Name="aid" />
+    </Key>
+    <Property Name="aid" Type="int" Nullable="false" />
+    <Property Name="abody" Type="varchar(max)" Nullable="true" />
+    <Property Name="adate" Type="datetime" Nullable="true" />
+    <Property Name="alikes" Type="int" Nullable="true" />
+    <Property Name="uid" Type="int" Nullable="false" />
+    <Property Name="qid" Type="int" Nullable="false" />
+    <Property Name="Question_qid" Type="int" Nullable="false" />
+    <Property Name="aapprove" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Questions">
+    <Key>
+      <PropertyRef Name="qid" />
+    </Key>
+    <Property Name="qid" Type="int" Nullable="false" />
+    <Property Name="qtitle" Type="varchar(max)" Nullable="true" />
+    <Property Name="qbody" Type="varchar(max)" Nullable="true" />
+    <Property Name="qtags" Type="varchar(max)" Nullable="true" />
+    <Property Name="qlikes" Type="int" Nullable="true" />
+    <Property Name="qcomments" Type="int" Nullable="true" />
+    <Property Name="uid" Type="int" Nullable="false" />
+    <Property Name="qdate" Type="datetime" Nullable="true" />
+    <Property Name="User_uid" Type="int" Nullable="false" />
+    <Property Name="qapprove" Type="int" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="uid" />
+    </Key>
+    <Property Name="uid" Type="int" Nullable="false" />
+    <Property Name="uname" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <Association Name="QuestionAnswer">
+    <End Role="Question" Type="DiscussionDatabaseModel.Store.Questions" Multiplicity="1" />
+    <End Role="Answer" Type="DiscussionDatabaseModel.Store.Answers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="qid" />
+      </Principal>
+      <Dependent Role="Answer">
+        <PropertyRef Name="Question_qid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DiscussionDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Answer">
+          <Key>
+            <PropertyRef Name="aid" />
+          </Key>
+          <Property Name="aid" Type="Int32" Nullable="false" />
+          <Property Name="abody" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="adate" Type="DateTime" Precision="3" />
+          <Property Name="alikes" Type="Int32" />
+          <Property Name="uid" Type="Int32" Nullable="false" />
+          <Property Name="qid" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Question" Relationship="DiscussionDatabaseModel.QuestionAnswer" FromRole="Answer" ToRole="Question" />
+          <Property Name="Question_qid" Type="Int32" Nullable="false" />
+          <Property Name="aapprove" Type="Int32" Nullable="true" />
+        </EntityType>
+        <EntityType Name="Question">
+          <Key>
+            <PropertyRef Name="qid" />
+          </Key>
+          <Property Name="qid" Type="Int32" Nullable="false" />
+          <Property Name="qtitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="qbody" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="qtags" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="qlikes" Type="Int32" />
+          <Property Name="qcomments" Type="Int32" />
+          <Property Name="uid" Type="Int32" Nullable="false" />
+          <Property Name="qdate" Type="DateTime" Precision="3" />
+          <Property Name="User_uid" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Answers" Relationship="DiscussionDatabaseModel.QuestionAnswer" FromRole="Question" ToRole="Answer" />
+          <Property Name="qapprove" Type="Int32" Nullable="true" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="uid" />
+          </Key>
+          <Property Name="uid" Type="Int32" Nullable="false" />
+          <Property Name="uname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="DiscussionDatabaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Answers" EntityType="Self.Answer" />
+          <EntitySet Name="Questions" EntityType="Self.Question" />
+          <EntitySet Name="Users" EntityType="Self.User" />
+          <AssociationSet Name="QuestionAnswer" Association="DiscussionDatabaseModel.QuestionAnswer">
+            <End EntitySet="Questions" Role="Question" />
+            <End EntitySet="Answers" Role="Answer" />
+          </AssociationSet>
+        </EntityContainer>
+        <Association Name="QuestionAnswer">
+          <End Type="DiscussionDatabaseModel.Question" Multiplicity="1" Role="Question" />
+          <End Type="DiscussionDatabaseModel.Answer" Multiplicity="*" Role="Answer" />
+          <ReferentialConstraint>
+            <Principal Role="Question">
+              <PropertyRef Name="qid" />
+            </Principal>
+            <Dependent Role="Answer">
+              <PropertyRef Name="Question_qid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DiscussionDatabaseModelStoreContainer" CdmEntityContainer="DiscussionDatabaseEntities">
+    <EntitySetMapping Name="Answers">
+      <EntityTypeMapping TypeName="IsTypeOf(DiscussionDatabaseModel.Answer)">
+        <MappingFragment StoreEntitySet="Answers">
+          <ScalarProperty Name="aid" ColumnName="aid" />
+          <ScalarProperty Name="abody" ColumnName="abody" />
+          <ScalarProperty Name="adate" ColumnName="adate" />
+          <ScalarProperty Name="alikes" ColumnName="alikes" />
+          <ScalarProperty Name="uid" ColumnName="uid" />
+          <ScalarProperty Name="qid" ColumnName="qid" />
+          <ScalarProperty Name="Question_qid" ColumnName="Question_qid" />
+          <ScalarProperty Name="aapprove" ColumnName="aapprove" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Questions">
+      <EntityTypeMapping TypeName="IsTypeOf(DiscussionDatabaseModel.Question)">
+        <MappingFragment StoreEntitySet="Questions">
+          <ScalarProperty Name="qid" ColumnName="qid" />
+          <ScalarProperty Name="qtitle" ColumnName="qtitle" />
+          <ScalarProperty Name="qbody" ColumnName="qbody" />
+          <ScalarProperty Name="qtags" ColumnName="qtags" />
+          <ScalarProperty Name="qlikes" ColumnName="qlikes" />
+          <ScalarProperty Name="qcomments" ColumnName="qcomments" />
+          <ScalarProperty Name="uid" ColumnName="uid" />
+          <ScalarProperty Name="qdate" ColumnName="qdate" />
+          <ScalarProperty Name="User_uid" ColumnName="User_uid" />
+          <ScalarProperty Name="qapprove" ColumnName="qapprove" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="IsTypeOf(DiscussionDatabaseModel.User)">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="uid" ColumnName="uid" />
+          <ScalarProperty Name="uname" ColumnName="uname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

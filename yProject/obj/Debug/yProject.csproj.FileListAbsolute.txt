@@ -1,0 +1,321 @@
+G:\Vinit\yProject\yProject\bin\ApplicationInsights.config
+G:\Vinit\yProject\yProject\bin\roslyn\csc.exe
+G:\Vinit\yProject\yProject\bin\roslyn\csc.exe.config
+G:\Vinit\yProject\yProject\bin\roslyn\csc.rsp
+G:\Vinit\yProject\yProject\bin\roslyn\csi.exe
+G:\Vinit\yProject\yProject\bin\roslyn\csi.rsp
+G:\Vinit\yProject\yProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Vinit\yProject\yProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Vinit\yProject\yProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Vinit\yProject\yProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Vinit\yProject\yProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Vinit\yProject\yProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Vinit\yProject\yProject\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Vinit\yProject\yProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Vinit\yProject\yProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Vinit\yProject\yProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Vinit\yProject\yProject\bin\roslyn\System.AppContext.dll
+G:\Vinit\yProject\yProject\bin\roslyn\System.Collections.Immutable.dll
+G:\Vinit\yProject\yProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Vinit\yProject\yProject\bin\roslyn\System.IO.FileSystem.dll
+G:\Vinit\yProject\yProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Vinit\yProject\yProject\bin\roslyn\System.Reflection.Metadata.dll
+G:\Vinit\yProject\yProject\bin\roslyn\vbc.exe
+G:\Vinit\yProject\yProject\bin\roslyn\vbc.exe.config
+G:\Vinit\yProject\yProject\bin\roslyn\vbc.rsp
+G:\Vinit\yProject\yProject\bin\roslyn\VBCSCompiler.exe
+G:\Vinit\yProject\yProject\bin\roslyn\VBCSCompiler.exe.config
+G:\Vinit\yProject\yProject\bin\yProject.dll.config
+G:\Vinit\yProject\yProject\bin\yProject.dll
+G:\Vinit\yProject\yProject\bin\yProject.pdb
+G:\Vinit\yProject\yProject\bin\Antlr3.Runtime.dll
+G:\Vinit\yProject\yProject\bin\EntityFramework.dll
+G:\Vinit\yProject\yProject\bin\EntityFramework.SqlServer.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.AI.DependencyCollector.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.AI.Web.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.AI.WindowsServer.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.ApplicationInsights.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.Google.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Vinit\yProject\yProject\bin\Microsoft.Web.Infrastructure.dll
+G:\Vinit\yProject\yProject\bin\Newtonsoft.Json.dll
+G:\Vinit\yProject\yProject\bin\Owin.dll
+G:\Vinit\yProject\yProject\bin\System.Net.Http.Formatting.dll
+G:\Vinit\yProject\yProject\bin\System.Web.Helpers.dll
+G:\Vinit\yProject\yProject\bin\System.Web.Http.dll
+G:\Vinit\yProject\yProject\bin\System.Web.Http.Owin.dll
+G:\Vinit\yProject\yProject\bin\System.Web.Http.WebHost.dll
+G:\Vinit\yProject\yProject\bin\System.Web.Mvc.dll
+G:\Vinit\yProject\yProject\bin\System.Web.Optimization.dll
+G:\Vinit\yProject\yProject\bin\System.Web.Razor.dll
+G:\Vinit\yProject\yProject\bin\System.Web.WebPages.Deployment.dll
+G:\Vinit\yProject\yProject\bin\System.Web.WebPages.dll
+G:\Vinit\yProject\yProject\bin\System.Web.WebPages.Razor.dll
+G:\Vinit\yProject\yProject\bin\WebGrease.dll
+G:\Vinit\yProject\yProject\bin\yProjectDataAccess.dll
+G:\Vinit\yProject\yProject\bin\yProjectDataAccess.pdb
+G:\Vinit\yProject\yProject\bin\yProjectDataAccess.dll.config
+G:\Vinit\yProject\yProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Vinit\yProject\yProject\bin\Newtonsoft.Json.xml
+G:\Vinit\yProject\yProject\bin\System.Net.Http.Formatting.xml
+G:\Vinit\yProject\yProject\bin\System.Web.Helpers.xml
+G:\Vinit\yProject\yProject\bin\System.Web.Http.xml
+G:\Vinit\yProject\yProject\bin\System.Web.Http.WebHost.xml
+G:\Vinit\yProject\yProject\bin\System.Web.Mvc.xml
+G:\Vinit\yProject\yProject\bin\System.Web.Optimization.xml
+G:\Vinit\yProject\yProject\bin\System.Web.Razor.xml
+G:\Vinit\yProject\yProject\bin\System.Web.WebPages.xml
+G:\Vinit\yProject\yProject\bin\System.Web.WebPages.Deployment.xml
+G:\Vinit\yProject\yProject\bin\System.Web.WebPages.Razor.xml
+G:\Vinit\yProject\yProject\bin\Antlr3.Runtime.pdb
+G:\Vinit\yProject\yProject\bin\EntityFramework.xml
+G:\Vinit\yProject\yProject\bin\EntityFramework.SqlServer.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.Google.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Vinit\yProject\yProject\bin\System.Web.Http.Owin.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.ApplicationInsights.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.AI.DependencyCollector.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.AI.WindowsServer.xml
+G:\Vinit\yProject\yProject\bin\Microsoft.AI.Web.xml
+G:\Vinit\yProject\yProject\obj\Debug\yProject.csprojResolveAssemblyReference.cache
+G:\Vinit\yProject\yProject\obj\Debug\yProject.dll
+G:\Vinit\yProject\yProject\obj\Debug\yProject.pdb
+G:\Vinit\yProject - Copy\yProject\bin\ApplicationInsights.config
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\csc.exe
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\csc.exe.config
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\csc.rsp
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\csi.exe
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\csi.rsp
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\System.AppContext.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\System.Collections.Immutable.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\System.IO.FileSystem.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\System.Reflection.Metadata.dll
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\vbc.exe
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\vbc.exe.config
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\vbc.rsp
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\VBCSCompiler.exe
+G:\Vinit\yProject - Copy\yProject\bin\roslyn\VBCSCompiler.exe.config
+G:\Vinit\yProject - Copy\yProject\bin\yProject.dll.config
+G:\Vinit\yProject - Copy\yProject\bin\yProject.dll
+G:\Vinit\yProject - Copy\yProject\bin\yProject.pdb
+G:\Vinit\yProject - Copy\yProject\bin\Antlr3.Runtime.dll
+G:\Vinit\yProject - Copy\yProject\bin\EntityFramework.dll
+G:\Vinit\yProject - Copy\yProject\bin\EntityFramework.SqlServer.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AI.DependencyCollector.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AI.Web.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AI.WindowsServer.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.ApplicationInsights.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.Google.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Web.Infrastructure.dll
+G:\Vinit\yProject - Copy\yProject\bin\Newtonsoft.Json.dll
+G:\Vinit\yProject - Copy\yProject\bin\Owin.dll
+G:\Vinit\yProject - Copy\yProject\bin\System.Net.Http.Formatting.dll
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Helpers.dll
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Http.dll
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Http.Owin.dll
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Http.WebHost.dll
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Mvc.dll
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Optimization.dll
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Razor.dll
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.WebPages.Deployment.dll
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.WebPages.dll
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.WebPages.Razor.dll
+G:\Vinit\yProject - Copy\yProject\bin\WebGrease.dll
+G:\Vinit\yProject - Copy\yProject\bin\yProjectDataAccess.dll
+G:\Vinit\yProject - Copy\yProject\bin\yProjectDataAccess.pdb
+G:\Vinit\yProject - Copy\yProject\bin\yProjectDataAccess.dll.config
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Vinit\yProject - Copy\yProject\bin\Newtonsoft.Json.xml
+G:\Vinit\yProject - Copy\yProject\bin\System.Net.Http.Formatting.xml
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Helpers.xml
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Http.xml
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Http.WebHost.xml
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Mvc.xml
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Optimization.xml
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Razor.xml
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.WebPages.xml
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.WebPages.Deployment.xml
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.WebPages.Razor.xml
+G:\Vinit\yProject - Copy\yProject\bin\Antlr3.Runtime.pdb
+G:\Vinit\yProject - Copy\yProject\bin\EntityFramework.xml
+G:\Vinit\yProject - Copy\yProject\bin\EntityFramework.SqlServer.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.Google.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Vinit\yProject - Copy\yProject\bin\System.Web.Http.Owin.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.ApplicationInsights.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AI.DependencyCollector.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AI.WindowsServer.xml
+G:\Vinit\yProject - Copy\yProject\bin\Microsoft.AI.Web.xml
+G:\Vinit\yProject - Copy\yProject\obj\Debug\yProject.csprojResolveAssemblyReference.cache
+G:\Vinit\yProject - Copy\yProject\obj\Debug\yProject.dll
+G:\Vinit\yProject - Copy\yProject\obj\Debug\yProject.pdb
+G:\Vinit\yProject - Copy - Copy\yProject\bin\ApplicationInsights.config
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\csc.exe
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\csc.exe.config
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\csc.rsp
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\csi.exe
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\csi.rsp
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\System.AppContext.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\System.Collections.Immutable.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\System.IO.FileSystem.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\System.Reflection.Metadata.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\vbc.exe
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\vbc.exe.config
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\vbc.rsp
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\VBCSCompiler.exe
+G:\Vinit\yProject - Copy - Copy\yProject\bin\roslyn\VBCSCompiler.exe.config
+G:\Vinit\yProject - Copy - Copy\yProject\bin\yProject.dll.config
+G:\Vinit\yProject - Copy - Copy\yProject\bin\yProject.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\yProject.pdb
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Antlr3.Runtime.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\EntityFramework.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\EntityFramework.SqlServer.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AI.DependencyCollector.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AI.Web.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AI.WindowsServer.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.ApplicationInsights.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.Google.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Web.Infrastructure.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Newtonsoft.Json.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Owin.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Net.Http.Formatting.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Helpers.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Http.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Http.Owin.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Http.WebHost.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Mvc.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Optimization.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Razor.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.WebPages.Deployment.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.WebPages.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.WebPages.Razor.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\WebGrease.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\yProjectDataAccess.dll
+G:\Vinit\yProject - Copy - Copy\yProject\bin\yProjectDataAccess.pdb
+G:\Vinit\yProject - Copy - Copy\yProject\bin\yProjectDataAccess.dll.config
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Newtonsoft.Json.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Net.Http.Formatting.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Helpers.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Http.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Http.WebHost.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Mvc.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Optimization.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Razor.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.WebPages.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.WebPages.Deployment.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.WebPages.Razor.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Antlr3.Runtime.pdb
+G:\Vinit\yProject - Copy - Copy\yProject\bin\EntityFramework.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\EntityFramework.SqlServer.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.Google.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\System.Web.Http.Owin.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.ApplicationInsights.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AI.DependencyCollector.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AI.WindowsServer.xml
+G:\Vinit\yProject - Copy - Copy\yProject\bin\Microsoft.AI.Web.xml
+G:\Vinit\yProject - Copy - Copy\yProject\obj\Debug\yProject.csprojResolveAssemblyReference.cache
+G:\Vinit\yProject - Copy - Copy\yProject\obj\Debug\yProject.dll
+G:\Vinit\yProject - Copy - Copy\yProject\obj\Debug\yProject.pdb

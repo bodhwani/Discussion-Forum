@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DiscussionDatabaseModelStoreContainer" CdmEntityContainer="DiscussionDatabaseEntities">
+    <EntitySetMapping Name="Answers">
+      <EntityTypeMapping TypeName="IsTypeOf(DiscussionDatabaseModel.Answer)">
+        <MappingFragment StoreEntitySet="Answers">
+          <ScalarProperty Name="aid" ColumnName="aid" />
+          <ScalarProperty Name="abody" ColumnName="abody" />
+          <ScalarProperty Name="adate" ColumnName="adate" />
+          <ScalarProperty Name="alikes" ColumnName="alikes" />
+          <ScalarProperty Name="uid" ColumnName="uid" />
+          <ScalarProperty Name="qid" ColumnName="qid" />
+          <ScalarProperty Name="Question_qid" ColumnName="Question_qid" />
+          <ScalarProperty Name="aapprove" ColumnName="aapprove" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Questions">
+      <EntityTypeMapping TypeName="IsTypeOf(DiscussionDatabaseModel.Question)">
+        <MappingFragment StoreEntitySet="Questions">
+          <ScalarProperty Name="qid" ColumnName="qid" />
+          <ScalarProperty Name="qtitle" ColumnName="qtitle" />
+          <ScalarProperty Name="qbody" ColumnName="qbody" />
+          <ScalarProperty Name="qtags" ColumnName="qtags" />
+          <ScalarProperty Name="qlikes" ColumnName="qlikes" />
+          <ScalarProperty Name="qcomments" ColumnName="qcomments" />
+          <ScalarProperty Name="uid" ColumnName="uid" />
+          <ScalarProperty Name="qdate" ColumnName="qdate" />
+          <ScalarProperty Name="User_uid" ColumnName="User_uid" />
+          <ScalarProperty Name="qapprove" ColumnName="qapprove" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="IsTypeOf(DiscussionDatabaseModel.User)">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="uid" ColumnName="uid" />
+          <ScalarProperty Name="uname" ColumnName="uname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

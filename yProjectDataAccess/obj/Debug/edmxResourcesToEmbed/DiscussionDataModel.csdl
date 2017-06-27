@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DiscussionDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Answer">
+    <Key>
+      <PropertyRef Name="aid" />
+    </Key>
+    <Property Name="aid" Type="Int32" Nullable="false" />
+    <Property Name="abody" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="adate" Type="DateTime" Precision="3" />
+    <Property Name="alikes" Type="Int32" />
+    <Property Name="uid" Type="Int32" Nullable="false" />
+    <Property Name="qid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Question" Relationship="DiscussionDatabaseModel.QuestionAnswer" FromRole="Answer" ToRole="Question" />
+    <Property Name="Question_qid" Type="Int32" Nullable="false" />
+    <Property Name="aapprove" Type="Int32" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="qid" />
+    </Key>
+    <Property Name="qid" Type="Int32" Nullable="false" />
+    <Property Name="qtitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="qbody" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="qtags" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="qlikes" Type="Int32" />
+    <Property Name="qcomments" Type="Int32" />
+    <Property Name="uid" Type="Int32" Nullable="false" />
+    <Property Name="qdate" Type="DateTime" Precision="3" />
+    <Property Name="User_uid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Answers" Relationship="DiscussionDatabaseModel.QuestionAnswer" FromRole="Question" ToRole="Answer" />
+    <Property Name="qapprove" Type="Int32" Nullable="true" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="uid" />
+    </Key>
+    <Property Name="uid" Type="Int32" Nullable="false" />
+    <Property Name="uname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="DiscussionDatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Answers" EntityType="Self.Answer" />
+    <EntitySet Name="Questions" EntityType="Self.Question" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="QuestionAnswer" Association="DiscussionDatabaseModel.QuestionAnswer">
+      <End EntitySet="Questions" Role="Question" />
+      <End EntitySet="Answers" Role="Answer" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="QuestionAnswer">
+    <End Type="DiscussionDatabaseModel.Question" Multiplicity="1" Role="Question" />
+    <End Type="DiscussionDatabaseModel.Answer" Multiplicity="*" Role="Answer" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="qid" />
+      </Principal>
+      <Dependent Role="Answer">
+        <PropertyRef Name="Question_qid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
